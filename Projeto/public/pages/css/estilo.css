@@ -28,6 +28,7 @@ body {
         justify-content: space-around;
         align-items: center;
         margin: 15px;
+        text-decoration: none;
     }
     #logo_img {
         width: 143px;
@@ -39,9 +40,21 @@ body {
         text-align: justify;
         margin-left: 20px;
     }
+    .content-txt {
+        font-size: 5em;
+        text-align: center;
+        font-weight: 700;
+        display: block;
+        transform: translate(50%);
+    }
+    .content-txt-img {
+        display: block;
+        width: 24em;
+        transform: translate(-70%);
+    }
     .btn_menu {
-        border: solid #2668A5 3px;
-        border-radius: 10px;
+        border: solid #2668A5 2px;
+        border-radius: 125px;
         font-family: Poppins Arial, Helvetica, sans-serif;
         font-size: 1.2em;
         padding: 0.5em 2em;
@@ -51,6 +64,7 @@ body {
         color: #0B1E5B;
         font-family: Poppins, Arial, Helvetica, sans-serif;
         text-align: center;
+        text-decoration: none;
     }
     h2 {
         font-size: 3em;
@@ -75,15 +89,19 @@ body {
     }
     .txt_btn_alt {
         color: #0B1E5B;
-        text-align: justify;
+        margin-top: 10%;
+        font-size: 1.2em;
+        font-weight: 400;
+        border-radius: 5px;
+
     }
     #heart {
-        width: 15em;
-        height: 15em;
+        width: 20em;
+        height: 20em;
     }
     .btn_footer {
-        border: solid #2668A5 3px;
-        border-radius: 5px;
+        border: solid #2668A5 2px;
+        border-radius: 125px;
         font-family: Poppins, Arial, Helvetica, sans-serif;
         font-size: 0.8em;
         padding: 0.5em 2em;
