@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E0FFF4;
+}
+
+@media screen and (min-width: 1080px) {
+    header {
+        margin-top: 2em;
+    }
+
+    main {
+        margin: 1em;
+    }
+
+    section {
+        margin-top: 10em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    footer {
+        margin-top: 5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    #header {
+        justify-content: space-around;
+        align-items: center;
+        margin: 15px;
+        text-decoration: none;
+    }
+
+    #logo_img {
+        width: 143px;
+        height: 140px;
+    }
+
+    #logo_texto {
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        text-align: justify;
+        margin-left: 20px;
+    }
+
+    .content-txt {
+        font-size: 5em;
+        text-align: center;
+        font-weight: 700;
+        display: block;
+        transform: translate(50%);
+    }
+
+    .content-txt-img {
+        display: block;
+        width: 24em;
+        transform: translate(-70%);
+    }
+
+    .btn_menu {
+        border: solid #2668A5 2px;
+        border-radius: 125px;
+        font-family: Poppins Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        padding: 0.5em 2em;
+        font-weight: bold;
+    }
+
+    a {
+        color: #0B1E5B;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    h2 {
+        font-size: 3em;
+        color: #0B1E5B;
+        font-weight: bold;
+        text-align: center;
+        margin: 1em;
+        font-family: Poppins, Arial, Helvetica, sans-serif
+    }
+
+    .conteudo {
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 1.5em;
+    }
+
+    .form {
+        margin: 5% 10% 5% 10%;
+        gap: 15px;
+        width: auto;
+    }
+    .form-campos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3%;
+
+    }
+
+    .btn_form {
+        margin: 1%;
+        padding: 3%;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        background: #C3DEF8;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-send {
+        margin: 1%;
+        padding: 1%;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        background: #C3DEF8;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .btn-send:hover{
+        transition: 0.3s;
+        background: #8fbfec;
+    }
+
+    .btn_alt {
+        background-color: #C3DEF8;
+        font-size: 1.2em;
+        padding: 0.5em 1em;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .txt_btn_alt {
+        color: #0B1E5B;
+        margin-top: 10%;
+        font-size: 1.2em;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+
+    #heart {
+        margin: auto 0 auto 0;
+        width: 20em;
+        height: 20em;
+    }
+
+    .btn_footer {
+        border: solid #2668A5 2px;
+        border-radius: 125px;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        padding: 0.5em 2em;
+        font-weight: bold;
+    }
+
+
+    #p_footer {
+        font-size: 1em;
+        padding: 0.5em;
+        margin-top: 4em;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 580px) {
+    header {
+        margin-top: 2em;
+    }
+
+    main {
+        margin: 0.8em;
+    }
+
+    #header {
+        justify-content: start;
+        align-items: center;
+        margin: 0.4em;
+    }
+
+    #logo_img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #logo_texto {
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        text-align: justify;
+        margin-left: 15px;
+    }
+
+    .btn_menu {
+        border: solid #2668A5 3px;
+        border-radius: 10px;
+        font-family: Poppins Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        padding: 0.25em 1em;
+        font-weight: bold;
+    }
+
+    a {
+        color: #0B1E5B;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 2.5em;
+        color: #0B1E5B;
+        font-weight: bold;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .conteudo {
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 1em;
+    }
+}
