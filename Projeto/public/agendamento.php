@@ -4,7 +4,7 @@ require_once 'header.php'
 
 <main class="container-fluid">
     <div class="row justify-content-around" class="bem-vindo">
-        <div class="col-5">
+        <div class="col-6">
             <h2 class="content-txt"> Agendamento</h2>
         </div>
         <img class="content-txt-img" src="./assets/images/curved-lines.svg">

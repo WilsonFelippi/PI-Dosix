@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -21,7 +21,7 @@
         <div><span class="btn_menu "><a href="./index.php">HOME</a></span></div>
       </div>
       <div class="col-2">
-        <div><span class="btn_menu "><a href="#">SERVIÇOS</a></span></div>
+        <div><span class="btn_menu "><a href="./servicos.php">SERVIÇOS</a></span></div>
       </div>
       <div class="col-2">
         <div><span class="btn_menu "><a href="./agendamento.php">AGENDAMENTOS</a></span></div>
