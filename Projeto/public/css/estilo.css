@@ -90,8 +90,9 @@ body {
 
     .conteudo {
         font-family: Poppins, Arial, Helvetica, sans-serif;
-        text-align: justify;
+        text-align: center;
         font-size: 1.5em;
+
     }
 
     .form {

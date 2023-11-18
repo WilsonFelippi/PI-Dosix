@@ -79,6 +79,9 @@ require_once 'header.php'
         <button class="col-3 btn-send" type="submit"> Enviar </button>
     </div>
 </form>
+<div class="row justify-content-around">
+    <p class="col-6 conteudo">Ao clicar em enviar, você está aceitando estes termos e condições.<br> Se você não concorda com os termos em sua totalidade, não clique no link.</p>
+</div>
 <?php
 require_once 'footer.php'
 ?>
