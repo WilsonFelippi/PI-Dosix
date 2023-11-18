@@ -15,7 +15,7 @@ require_once 'header.php'
         </div>
     </div>
 </main>
-<form class="form" action="enviarDados.php" method="post">
+<form class="form" action="dados.php" method="POST">
 
     <div class="form-campos">
         <div class="col-3">
