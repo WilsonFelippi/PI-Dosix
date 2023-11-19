@@ -8,7 +8,7 @@ require_once 'header.php'
     <div class="col-6">
       <h2 class="content-txt">Obrigado!</h2>
     </div>
-    <img class="content-txt-img" src="./img/curved-lines.svg">
+    <img class="content-txt-img" src="./assets/images/curved-lines.svg">
   </div>
     <div class="row justify-content-around">
         <div class="col-7">
