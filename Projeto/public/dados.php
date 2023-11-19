@@ -28,7 +28,6 @@
             VALUES ('$nome','$sobrenome','$email','$dataNascimento','$diaAgendamento','$telefone',
             '$especialidade','$cpf','$pesquisa','$dizer')";
 
-$result = mysqli_query($conn, $sql);
 			
     $stmt = $conn->prepare($sql);
 
