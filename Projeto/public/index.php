@@ -11,7 +11,7 @@ require_once 'header.php'
   <div class="row justify-content-around">
     <div class="col-10">
       <p class="conteudo">Na !dosix, acreditamos que a idade é uma viagem incrível, e estamos aqui para torná-la espetacular!
-        Nossa plataforma ajuda a conectar especialistas em cuidados de idosos com quem precisa de cuidado.</p>
+      <br>Nossa plataforma ajuda a conectar especialistas em cuidados de idosos com quem precisa de cuidado.</p>
       <p class="conteudo">Realizamos serviços de integração de diversos profissionais em cuidados de idosos que vão desde cuidados personalizados até sessões de fisioterapia e consultas médicas em casa. Venha fazer parte da nossa família e descubra como transformamos o envelhecimento em uma aventura emocionante !</p>
     </div>
   </div>
