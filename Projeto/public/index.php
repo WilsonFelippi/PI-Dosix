@@ -20,7 +20,7 @@ require_once 'header.php'
   <div class="row justify-content-around align-items-center">
     <div class="col-3">
       <div class="row">
-        <span class="btn_alt"><a href="#">Encontre profissionais</a></span>
+        <span class="btn_alt"><a href="./servicos.php">Encontre profissionais</a></span>
         <p class="txt_btn_alt">Busque por especialistas de saúde em sua região. Filtre por planos de saúde, tratamentos ou disponibilidade.</p>
       </div>
     </div>
