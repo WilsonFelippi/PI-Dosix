@@ -76,11 +76,11 @@ require_once 'header.php'
         </div>
     </div>
     <div class="button">
-        <button class="col-3 btn-send" type="submit"> Enviar </button>
+        <button class="col-3 btn-send" type="submit"> Enviar Agendamento </button>
     </div>
 </form>
 <div class="row justify-content-around">
-    <p class="col-6 conteudo">Ao clicar em enviar, você está aceitando estes termos e condições.<br> Se você não concorda com os termos em sua totalidade, não clique no link.</p>
+    <p class="col-6 conteudo">Ao clicar no link, você está aceitando estes termos e condições ("Contrato"). Se você não concorda em ficar vinculado a este Contrato em sua totalidade, por favor, não clique no link.</p>
 </div>
 <?php
 require_once 'footer.php'
