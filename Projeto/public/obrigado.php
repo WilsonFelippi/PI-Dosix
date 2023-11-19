@@ -12,10 +12,10 @@ require_once 'header.php'
   </div>
     <div class="row justify-content-around">
         <div class="col-7">
-            <p class="conteudo2">Agendamento confirmado!</p>
+            <h2 class="conteudo2">Agendamento confirmado!</h2>
       </div>
 	<div class="col-7">
-            <p class="conteudo2">Nosso profissional irá se apresentar no horário e data marcados.</p>
+            <p class="card-text conteudo2">Nosso profissional irá se apresentar no horário e data marcados.</p>
       </div>
 	<div class="col-7">
             <p class="conteudo2">Não se esqueça de comunicar o cancelamento com antecedência caso ocorra algum problema.</p>
