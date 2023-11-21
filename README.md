@@ -41,7 +41,7 @@ https://pt.wikihow.com/Instalar-o-XAMPP-para-Windows
 
 c:/xampp/htdocs
               ├─
-$ git clone https://github.com/ProjetoLibras/appLibras.git
+$ git clone https://github.com/WilsonFelippi/PI-Dosix.git
 $ cd PI-Dosix/
 ```
 _Necessario Instalação do xampp ou similar_
