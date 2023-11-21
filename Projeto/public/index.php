@@ -10,9 +10,9 @@ require_once 'header.php'
   </div>
   <div class="row justify-content-around">
     <div class="col-10">
-      <p class="conteudo">Na !dosix, acreditamos que a idade é uma viagem incrível, e estamos aqui para torná-la espetacular!
-        Nossa plataforma ajuda a conectar especialistas em cuidados de idosos com quem precisa de cuidado.</p>
-      <p class="conteudo">Realizamos serviços de integração de diversos profissionais em cuidados de idosos que vão desde cuidados personalizados até sessões de fisioterapia e consultas médicas em casa. Venha fazer parte da nossa família e descubra como transformamos o envelhecimento em uma aventura emocionante !</p>
+      <p class="conteudo_home">Na !dosix, acreditamos que a idade é uma viagem incrível, e estamos aqui para torná-la espetacular!
+      <br>Nossa plataforma ajuda a conectar especialistas em cuidados de idosos com quem precisa de cuidado.</p>
+      <p class="conteudo_home">Realizamos serviços de integração de diversos profissionais em cuidados de idosos que vão desde cuidados personalizados até sessões de fisioterapia e consultas médicas em casa. Venha fazer parte da nossa família e descubra como transformamos o envelhecimento em uma aventura emocionante !</p>
     </div>
   </div>
 </main>
@@ -20,7 +20,7 @@ require_once 'header.php'
   <div class="row justify-content-around align-items-center">
     <div class="col-3">
       <div class="row">
-        <span class="btn_alt"><a href="#">Encontre profissionais</a></span>
+        <span class="btn_alt"><a href="./servicos.php">Encontre profissionais</a></span>
         <p class="txt_btn_alt">Busque por especialistas de saúde em sua região. Filtre por planos de saúde, tratamentos ou disponibilidade.</p>
       </div>
     </div>
