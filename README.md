@@ -82,4 +82,7 @@ http://localhost/PI-Dosix/Projeto/public/index.php
   <sub><a href="https://github.com/WillZuq">WILLIAN PIRES SABADINI ZUQUI</a></sub><br>
   <sub><a href="https://github.com/Willian-1921">WILLIAN ANDRÉ DUTRA DE SOUZA
 </a></sub><br>
+<sub><a href="#">VINICIUS DE OLIVEIRA</a></sub><br>
+<sub><a href="#">YAGO RANGEL</a></sub><br>
+
 </div>
