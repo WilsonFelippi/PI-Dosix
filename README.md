@@ -21,6 +21,7 @@
 - [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 - [SQL](https://www.w3schools.com/sql/)
 - [PHP](https://www.php.net/docs.php)
+- [Laravel](https://www.laravel.com)
 
 
 ## 💻 Iniciando o projeto
