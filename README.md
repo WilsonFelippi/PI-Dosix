@@ -28,49 +28,26 @@
 
 ### Pré-requisitos
 
-- [XAMPP](https://www.apachefriends.org/pt_br/index.html)
-- [Mysql](https://www.apachefriends.org/pt_br/index.html)
-- [Apache](https://www.apachefriends.org/pt_br/index.html)
+
+- [Docker](http://www.docker.com)
 
 ### Instalando e rodando o projeto
 
 _Clone o projeto e acesse a pasta_
 
 ```bash
-#Guia de instalação XAMPP
-https://pt.wikihow.com/Instalar-o-XAMPP-para-Windows
+#Guia de instalação Docker
 
-c:/xampp/htdocs
-              ├─
-$ git clone https://github.com/WilsonFelippi/PI-Dosix.git
-$ cd PI-Dosix/
-```
-_Necessario Instalação do xampp ou similar_
-```bash
-Guia de instalação
+$ git clone https://github.com/Vinicius149/PI-Dosix-LARAVEL
+$ cd PI-DOSIX-LARAVEL/projeto-laravel/idosix
+$ cp .env.example .env
+$ docker-compose build
+$ docker-compose up
+$ docker  exec -it idosix-app /bin/sh composer-install
 
-Exemple Base de Dados:
-Importar a base de dados utilizando a base que disponibilizamos no projeto "bd.sql"
-
-Dados de conexão default - 
-
-host: "localhost"
-user: "root"
-senha: ""
-
-```
-_Siga os passos abaixo_
-
-
-## Start Apache e start Mysql
-<img src="./Projeto/public/assets/images/xampp.png"/>
-
-<br>
-
-```bash
 #Em um navegador de internet acesse
 
-http://localhost/PI-Dosix/Projeto/public/index.php
+http://localhost:8000
 ```
 
 <hr>
