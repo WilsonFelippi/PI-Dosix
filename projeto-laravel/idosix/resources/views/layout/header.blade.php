@@ -20,7 +20,7 @@
         <p id="logo_texto">!Dosix</p>
       </div>
       <div class="col-2">
-        <div><span class="btn_menu "><a href="{{ route('home') }}">HOME</a></span></div>
+        <div><span class="btn_menu "><a href="{{ route('inicial') }}">HOME</a></span></div>
       </div>
       <div class="col-2">
         <div><span class="btn_menu "><a href="{{ route('servicos') }}">SERVIÇOS</a></span></div>
