@@ -26,7 +26,7 @@
         <div><span class="btn_menu "><a href="{{ route('servicos') }}">SERVIÇOS</a></span></div>
       </div>
       <div class="col-2">
-        <div><span class="btn_menu "><a href="{{ route('agendamento') }}">agendamento</span></div>
+        <div><span class="btn_menu "><a href="{{ route('home') }}">Login</span></div>
       </div>
     </div>
   </header>
