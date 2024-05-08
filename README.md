@@ -43,7 +43,10 @@ $ cd PI-DOSIX-LARAVEL/projeto-laravel/idosix
 $ cp .env.example .env
 $ docker-compose build
 $ docker-compose up
-$ docker  exec -it idosix-app /bin/sh composer-install
+$ docker  exec -it idosix-app /bin/sh
+$ composer install
+$ npm install
+$ npm run dev
 
 #Em um navegador de internet acesse
 
