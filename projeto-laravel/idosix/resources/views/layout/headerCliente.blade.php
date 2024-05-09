@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html lang="pt-br">
 
@@ -8,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="./css/estilo.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>!Dosix</title>
 </head>
 
@@ -21,13 +19,13 @@
         <p id="logo_texto">!Dosix</p>
       </div>
       <div class="col-2">
-        <div><span class="btn_menu "><a href="{{ route('inicial') }}">HOME</a></span></div>
+        <div><span class="btn_menu "><a href="{{ route('dashboardcliente') }}">Agendamentos</a></span></div>
       </div>
       <div class="col-2">
-        <div><span class="btn_menu "><a href="{{ route('servicos') }}">SERVIÇOS</a></span></div>
+        <div><span class="btn_menu "><a href="{{ route('agendamento') }}">Novo Agendamento</a></span></div>
       </div>
       <div class="col-2">
-        <div><span class="btn_menu "><a href="{{ route('login') }}">Login</a></span></div>
+        <div><span class="btn_menu "><a href="{{ route('Inicial') }}">Sair</a></span></div>
       </div>
     </div>
   </header>
