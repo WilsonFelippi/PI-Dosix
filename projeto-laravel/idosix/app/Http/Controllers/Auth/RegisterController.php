@@ -28,7 +28,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/dashboardcliente';
+    protected $redirectTo = 'dashboardcliente';
 
     /**
      * Create a new controller instance.
@@ -67,5 +67,9 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
             'tipo' => $data['tipo'],
         ]);
+    }
+
+    public function index () {
+        return view('auth/register');
     }
 }

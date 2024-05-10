@@ -18,8 +18,8 @@ return new class extends Migration
             $table->date('data');
             $table->string('forma_pagamento');
             $table->timestamps();
-            $table->foreign('id_cliente')->references('id')->on('clientes')->onDelete('cascade')->onUpdate('cascade');
-            $table->foreign('id_medico')->references('id')->on('medicos')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('id_cliente')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('id_medico')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 

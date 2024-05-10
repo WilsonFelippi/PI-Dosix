@@ -3,7 +3,7 @@
         <title>Idosix</title>
     </head>
     <body>
-        @include('layout.clienteheader')
+        @include('layout.adminheader')
                 @yield('content')
         @include('layout.footer')
     </body>
