@@ -18,8 +18,7 @@ Route::get('/', function () {
 Route::get('/agendamento', 'App\Http\Controllers\AgendamentoController@abrir')->name('agendamento');
 Route::get('/inicial', 'App\Http\Controllers\InicialController@abrir')->name('inicial');
 Route::get('/servicos', 'App\Http\Controllers\ServicosController@abrir')->name('servicos');
-Route::get('
-',[App\Http\Controllers\ClienteController::class, 'index'])->name('dashboard.cliente')->middleware(['auth', 'tipo:cliente']);
+Route::get('/cliente/dashboard',[App\Http\Controllers\ClienteController::class, 'index'])->name('dashboard.cliente')->middleware(['auth', 'tipo:cliente']);
 Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('dashboard.admin')->middleware(['auth', 'tipo:admin']);
 
 
