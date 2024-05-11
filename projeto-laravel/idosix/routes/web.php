@@ -24,7 +24,7 @@ Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'ind
 
 Route::get('/login',[App\http\Controllers\Auth\LoginController::class,'index'])->name('login');
 Route::get('/registro',[App\http\Controllers\Auth\RegisterController::class,'index'])->name('registro');
-
+Route::post('/sucesso',[App\http\Controllers\Auth\RegisterController::class,'create'])->name('criar');
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
