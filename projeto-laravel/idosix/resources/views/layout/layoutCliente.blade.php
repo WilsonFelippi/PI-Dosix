@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Idosix</title>
+    </head>
+    <body>
+        @include('layout.clienteheader')
+                @yield('content')
+        @include('layout.footer')
+    </body>
+</html>
