@@ -29,7 +29,7 @@
 
                             <div class="col-lg-4">
 
-                                <input id="cpf" type="text" class="form-control input-cadastro " name="cpf" value="{{ old('capf') }}" required autocomplete="cpf" autofocus>
+                                <input id="cpf" type="text" class="form-control input-cadastro " name="cpf" value="{{ old('cpf') }}" required autocomplete="cpf" autofocus>
 
 
                             </div>
