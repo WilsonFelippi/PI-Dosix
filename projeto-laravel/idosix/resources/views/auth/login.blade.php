@@ -77,7 +77,7 @@
                     </form>
                     <div class="card-body">
                         <div class="row mb-3 justify-content-md-center ">{{__('Não tem uma conta?')}}
-                            <a href="{{Route('registro')}}"> Cadastra-se </a>
+                            <a href="{{ route('register')}}"> Cadastre-se </a>
                             <span> </span>
                         </div>
                     </div>
