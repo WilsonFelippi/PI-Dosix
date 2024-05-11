@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -28,7 +29,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = 'dashboardcliente';
+    protected $redirectTo = '/cliente/dashboard';
 
     /**
      * Create a new controller instance.
@@ -60,12 +61,26 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \App\Models\User
      */
-    protected function create(array $data)
+    protected function create(Request $request)
     {
         return User::create([
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-            'tipo' => $data['tipo'],
+            'nome' => $request->nome,
+            'cpf' => $request->cpf,
+            'crm' => $request->crm,
+            'genero'=> $request->genero,
+            'data_nascimento' => $request->data_nascimento,
+            'celular'=> $request->celular,
+            'cep'=> $request->cep,
+            'logradouro' => $request->logradouro,
+            'numero' => $request->numero,
+            'complemento' => $request->complemento,
+            'bairro' => $request->bairro,
+            'cidade' => $request->cidade,
+            'estado' => $request->estado,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'tipo' => $request->tipo,
+            'id_especialidade' => $request->id_especialidade,
         ]);
     }
 

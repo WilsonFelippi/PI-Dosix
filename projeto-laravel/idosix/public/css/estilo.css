@@ -173,7 +173,7 @@ body {
         width: 20em;
         height: 20em;
     }
-    
+
     .btn_footer {
         border: solid #2668A5 2px;
         border-radius: 125px;
@@ -197,12 +197,42 @@ body {
         width: 350px;
         margin: 5% 5% 5% 5%;
         border-radius: 210px;
-        
+
     }
 
     .profissionais-img {
         border-radius: 210px;
-        background-color: #fff; 
+        background-color: #fff;
+    }
+
+
+    .div-cadastro {
+        background-color: #E0FFF4;
+    }
+
+    .titulo-cadastro {
+        background: -webkit-linear-gradient(to right, #7F97E2, #001455);
+        background: linear-gradient(to right, #7F97E2, #001455);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3em;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .input-texto-cadastro {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .input-cadastro {
+        background: linear-gradient(to right, #A1D0FC, #5268A0);
+    }
+    .div-linha {
+        margin: 5px;
+    }
+    .btn-cadastrar {
+        width: 400px;
+        height: 50px;
+        background: linear-gradient(to right, #7F97E2, #001455);
     }
 }
 
@@ -246,7 +276,7 @@ body {
         color: #0B1E5B;
         font-family: Poppins, Arial, Helvetica, sans-serif;
     }
-    
+
 
     h2 {
         font-size: 2.5em;

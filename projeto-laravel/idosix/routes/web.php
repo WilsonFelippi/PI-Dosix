@@ -5,7 +5,6 @@ use App\Http\Controllers\ServicosController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\RegisterController;
 use App\Http\Middleware\EnsureUserHasRole;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Facade;
@@ -24,9 +23,8 @@ Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'ind
 
 
 Route::get('/login',[App\http\Controllers\Auth\LoginController::class,'index'])->name('login');
-Route::get('/register',[App\http\Controllers\Auth\RegisterController::class,'index'])->name('register');
-
+Route::get('/registro',[App\http\Controllers\Auth\RegisterController::class,'index'])->name('registro');
+Route::post('/sucesso',[App\http\Controllers\Auth\RegisterController::class,'create'])->name('criar');
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
