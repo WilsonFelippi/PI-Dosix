@@ -19,8 +19,11 @@
                     <tbody>
                     @foreach ($agendamentos as $agendamento)
                         <tr>    
+                                @php
+                                    $id_medico = $agendamento['id_medico'];
+                                @endphp
                                 <td>{{$agendamento['id']}}</td>
-                                <td>{{$medicos[$agendamento['id_medico']]['nome']}}</td>
+                                <td>{{$medicos[$id_medico -1 ]['nome']}}</td>
                                 <td>{{$agendamento['data']}}</td>
                                 <td>{{$agendamento['forma_pagamento']}}</td>
                         </tr>

@@ -30,7 +30,6 @@ class RegisterController extends Controller
      *
      * @var string
      */
-<<<<<<< HEAD
     public function redirectTo(){
 
         // User role
@@ -53,9 +52,6 @@ class RegisterController extends Controller
                 break;
         }
     }
-=======
-    protected $redirectTo = '/cliente/dashboard';
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
 
     /**
      * Create a new controller instance.
