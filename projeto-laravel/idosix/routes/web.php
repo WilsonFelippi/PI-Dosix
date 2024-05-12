@@ -28,4 +28,3 @@ Route::post('/sucesso',[App\http\Controllers\Auth\RegisterController::class,'cre
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-

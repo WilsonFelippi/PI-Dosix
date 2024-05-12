@@ -38,8 +38,8 @@ _Clone o projeto e acesse a pasta_
 ```bash
 #Guia de instalação Docker
 
-$ git clone https://github.com/Vinicius149/PI-Dosix-LARAVEL
-$ cd PI-DOSIX-LARAVEL/projeto-laravel/idosix
+$ git clone https://github.com/WilsonFelippi/PI-Dosix.git
+$ cd projeto-laravel/idosix
 $ cp .env.example .env
 $ docker-compose build
 $ docker-compose up
