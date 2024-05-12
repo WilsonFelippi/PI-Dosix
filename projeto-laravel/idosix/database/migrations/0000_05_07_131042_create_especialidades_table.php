@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('especialidades', function (Blueprint $table) {
             $table->id();
             $table->string('descricao');
-            $table->double('preco', 10,2);
+            $table->double('preco');
             $table->timestamps();
         });
     }

@@ -161,8 +161,8 @@
                                     <input id="password-confirm" type="password" class="form-control input-cadastro" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
+
                         <input type="hidden" id="crm" name="crm" value="">
-                        <input type="hidden" id="id_especialidade" name="id_especialidade" value="">
                         <input type="hidden" id="id_especialidade" name="id_especialidade" value="">
                         <input type="hidden" id="tipo" name="tipo" value="cliente">
 

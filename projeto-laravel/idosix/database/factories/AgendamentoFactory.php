@@ -20,4 +20,5 @@ class AgendamentoFactory extends Factory
             //
         ];
     }
+    
 }
