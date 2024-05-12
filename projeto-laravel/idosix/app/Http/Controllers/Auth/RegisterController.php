@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
@@ -29,7 +30,28 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/cliente/dashboard';
+    public function redirectTo(){
+
+        // User role
+        $id = Auth::id();
+        $role = User::find($id);
+    
+        // Check user role
+        switch ($role['tipo']) {
+            case 'cliente':
+                    return '/cliente/dashboard';
+                break;
+            case 'medico':
+                     return '/medico/dashboard';
+                break; 
+            case 'admin':
+                    return '/admin/dashboard';
+                break;
+            default:
+                    return '/login'; 
+                break;
+        }
+    }
 
     /**
      * Create a new controller instance.

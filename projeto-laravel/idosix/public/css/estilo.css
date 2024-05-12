@@ -234,6 +234,35 @@ body {
         height: 50px;
         background: linear-gradient(to right, #7F97E2, #001455);
     }
+
+    .div-cadastro {
+        background-color: #E0FFF4;
+    }
+
+    .titulo-cadastro {
+        background: -webkit-linear-gradient(to right, #7F97E2, #001455);
+        background: linear-gradient(to right, #7F97E2, #001455);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3em;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .input-texto-cadastro {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .input-cadastro {
+        background: linear-gradient(to right, #A1D0FC, #5268A0);
+    }
+    .div-linha {
+        margin: 5px;
+    }
+    .btn-cadastrar {
+        width: 400px;
+        height: 50px;
+        background: linear-gradient(to right, #7F97E2, #001455);
+    }
 }
 
 @media screen and (max-width: 1080px) and (min-width: 580px) {
