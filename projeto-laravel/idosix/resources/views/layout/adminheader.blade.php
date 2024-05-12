@@ -14,22 +14,22 @@
 
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <header class="container-fluid">
+  <header class="container">
     <div class="row" id="header">
-      <div class="col-2">
+      <div class="col-lg-2">
         <img id="logo_img" src="./assets/images/logo.png">
         <p id="logo_texto">!Dosix</p>
       </div>
-      <div class="col-2">
+      <div class="col-lg-2">
         <div><span class="btn_menu "><a href="{{ route('dashboard.admin') }}">Agendamentos</a></span></div>
       </div>
-      <div class="col-2">
+      <div class="col-lg-2">
         <div><span class="btn_menu "><a href="{{ route('dashboard.admin') }}">Nova Especialidade</a></span></div>
       </div>
-      <div class="col-2">
+      <div class="col-lg-2">
         <div><span class="btn_menu "><a href="{{ route('dashboard.admin') }}">Novo Médico</a></span></div>
       </div>
-      <div class="col-2">
+      <div class="col-lg-2">
         <div><span class="btn_menu "> <a href="{{ route('logout') }}"
           onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
