@@ -263,6 +263,10 @@ body {
         height: 50px;
         background: linear-gradient(to right, #7F97E2, #001455);
     }
+    .table-text {
+        text-align: center;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 1080px) and (min-width: 580px) {
