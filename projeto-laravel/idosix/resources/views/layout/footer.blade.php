@@ -1,5 +1,5 @@
 <section>
-    <img class="doodles" src="./assets/images/Doodles.png" width="100%">
+    <img class="doodles" src= {{asset('assets/images/Doodles.png')}} width="100%">
 </section>
 <footer class="container-fluid">
     <div class="row justify-content-around align-items-center">
@@ -22,4 +22,3 @@
         </div>
     </div>
 </footer>
-</body>

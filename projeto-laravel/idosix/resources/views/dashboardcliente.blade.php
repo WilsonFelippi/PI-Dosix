@@ -2,11 +2,12 @@
 @extends('layout.layoutcliente')
 
 @section('content')
-    <h1>Dashboard do {{Auth::User()->email}} </h1>
-    <div class="container div-cadastro">
+<h2 class="titulo-cadastro">Olá, {{Auth::user()->tipo}}!</h2>
+<br><br>
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <table class="table table-striped align-middle text-center">
+                <table class="table table-striped align-middle text-center table-text">
                     <thead>
                         <tr>
                         <th >Protocolo</th>

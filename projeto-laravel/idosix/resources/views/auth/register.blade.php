@@ -13,19 +13,11 @@
 
                         <div class="row justify-content-between ">
                             <label for="nome" class="col-lg-2 col-form-label text-md-end input-texto-cadastro">{{ __('Nome') }}</label>
-<<<<<<< HEAD
                             
                             <div class="col-lg-4">
                                 
                                 <input id="nome" type="text" class="form-control input-cadastro @error('nome') is-invalid @enderror" name="nome" value="{{ old('nome') }}" required autocomplete="nome" autofocus>
 
-=======
-
-                            <div class="col-lg-4">
-
-                                <input id="nome" type="text" class="form-control input-cadastro @error('nome') is-invalid @enderror" name="nome" value="{{ old('nome') }}" required autocomplete="nome" autofocus>
-
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                                 @error('nome')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -34,21 +26,12 @@
                             </div>
 
                             <label for="cpf" class="col-lg-2 col-form-label text-md-end input-texto-cadastro">{{ __('CPF') }}</label>
-<<<<<<< HEAD
-                            
-                            <div class="col-lg-4">
-                                
-                                <input id="cpf" type="text" class="form-control input-cadastro " name="cpf" value="{{ old('capf') }}" required autocomplete="cpf" autofocus>
-
-                               
-=======
 
                             <div class="col-lg-4">
 
                                 <input id="cpf" type="text" class="form-control input-cadastro " name="cpf" value="{{ old('cpf') }}" required autocomplete="cpf" autofocus>
 
 
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                             </div>
                         </div>
 
@@ -56,15 +39,9 @@
 
                         <div class="row justify-content-between ">
                             <label for="genero" class="col-lg-2 col-form-label text-md-end input-texto-cadastro">{{ __('Gênero') }}</label>
-<<<<<<< HEAD
                             
                             <div class="col-lg-4">
                                 
-=======
-
-                            <div class="col-lg-4">
-
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                                 <select id="genero"  class="form-control input-cadastro" name="genero"" required  autofocus>
                                     <option value="Masculino">{{__('Masculino')}}</option>
                                     <option value="Feminino">{{__('Feminino')}}</option>
@@ -73,15 +50,9 @@
                             </div>
 
                             <label for="data_nascimento" class="col-lg-2 col-form-label text-md-end input-texto-cadastro">{{ __('Data de Nascimento') }}</label>
-<<<<<<< HEAD
                             
                             <div class="col-lg-4">
                                 
-=======
-
-                            <div class="col-lg-4">
-
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                                 <input id="data_nascimento" type="date" class="form-control input-cadastro " name="data_nascimento" value="{{ old('data_nascimento') }}" required autocomplete="data_nascimento" autofocus>
 
                             </div>
@@ -150,11 +121,6 @@
 
                             </div>
                         </div>
-<<<<<<< HEAD
-                        
-=======
-
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                         <div class="row"> <br> </div>
 
                         <div class="row justify-content-between">
@@ -190,26 +156,14 @@
 
                             <label for="password-confirm" class="col-lg-2 col-form-label text-md-end input-texto-cadastro">{{ __('Confirme a senha') }}</label>
                             <div class="col-lg-4">
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                                     <input id="password-confirm" type="password" class="form-control input-cadastro" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
-                        <input type="hidden" id="crm" name="crm" value="">
-                        <input type="hidden" id="id_especialidade" name="id_especialidade" value="">
-                        <input type="hidden" id="id_especialidade" name="id_especialidade" value="">
-                        <input type="hidden" id="tipo" name="tipo" value="cliente">
 
-<<<<<<< HEAD
                         <input type="hidden" id="crm" name="crm" value="">
                         <input type="hidden" id="id_especialidade" name="id_especialidade" value="">
                         <input type="hidden" id="tipo" name="tipo" value="cliente">
 
-=======
->>>>>>> c0e8bff68630249c37dc209f8a8966175a0eda46
                         <div class="row"> <br> </div>
                         <div class="row"> <br> </div>
 
