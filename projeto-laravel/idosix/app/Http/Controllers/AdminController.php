@@ -7,6 +7,7 @@ use App\Models\Especialidades;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use League\Flysystem\UrlGeneration\PublicUrlGenerator;
+use Illuminate\Support\Facades\View;
 class AdminController extends Controller
 {
     /**

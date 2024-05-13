@@ -1,13 +1,14 @@
 @extends('layout.layoutadmin')
 
 @section('content')
-    <h1> Dashboard Admin </h1>
-    <h2> {{Auth::user()->tipo}}</h2>
-    <div class="container div-cadastro">
+<main>
+    <h2 class="titulo-cadastro">Olá, {{Auth::user()->tipo}}!</h2>
+    <br><br>
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <table class="table table-striped align-middle text-center">
-                    <thead class="table-text">
+                <table class="table table-striped align-middle text-center table-text">
+                    <thead class="">
                         <tr>
                         <th >Protocolo</th>
                         <th>Cliente</th>
@@ -18,7 +19,7 @@
                         <th>Valor</th>
                         </tr>
                     </thead>
-                    <tbody class="table-text">
+                    <tbody class="">
                     @foreach ($agendamentos as $agendamento)
                         <tr>    
                                 @php
@@ -43,4 +44,5 @@
             </div>
         </div>
     </div>
+</main>
 @endsection

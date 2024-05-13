@@ -19,6 +19,9 @@ Route::get('/agendamento', 'App\Http\Controllers\AgendamentoController@abrir')->
 Route::get('/inicial', 'App\Http\Controllers\InicialController@abrir')->name('inicial');
 Route::get('/servicos', 'App\Http\Controllers\ServicosController@abrir')->name('servicos');
 Route::get('/cliente/dashboard',[App\Http\Controllers\ClienteController::class, 'index'])->name('dashboard.cliente')->middleware(['auth', 'tipo:cliente']);
+Route::get('/cliente/agendamento/cadastro',[App\Http\Controllers\AgendamentoController::class, 'index'])->name('cliente.agendamento')->middleware(['auth', 'tipo:cliente']);
+Route::post('/cliente/agendamento/salvar',[App\Http\Controllers\AgendamentoController::class, 'store'])->name('agendamento.salvar')->middleware(['auth', 'tipo:cliente']);
+
 Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('dashboard.admin')->middleware(['auth', 'tipo:admin']);
 
 
