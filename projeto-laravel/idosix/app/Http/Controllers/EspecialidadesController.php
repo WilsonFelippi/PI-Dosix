@@ -12,7 +12,8 @@ class EspecialidadesController extends Controller
      */
     public function index()
     {
-        //
+        $especialidades = Especialidades::all();
+        return view('cadastroespecialidade', compact('especialidades'));
     }
 
     /**
@@ -28,7 +29,15 @@ class EspecialidadesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $especialidade = new Especialidades;
+
+        $especialidade->descricao = $request->descricao;
+        $especialidade->preco = $request->preco;
+
+        $especialidade->save();
+
+        return redirect('/admin/dashboard');
+
     }
 
     /**
