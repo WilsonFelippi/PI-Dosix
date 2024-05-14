@@ -23,7 +23,12 @@ Route::get('/cliente/agendamento/cadastro',[App\Http\Controllers\AgendamentoCont
 Route::post('/cliente/agendamento/salvar',[App\Http\Controllers\AgendamentoController::class, 'store'])->name('agendamento.salvar')->middleware(['auth', 'tipo:cliente']);
 
 Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('dashboard.admin')->middleware(['auth', 'tipo:admin']);
+Route::get('/admin/especialidade',[App\Http\Controllers\EspecialidadesController::class, 'index'])->name('especialidade.nova')->middleware(['auth', 'tipo:admin']);
+Route::post('/admin/especialidade/salvar',[App\Http\Controllers\EspecialidadesController::class, 'store'])->name('especialidade.salvar')->middleware(['auth', 'tipo:admin']);
+Route::get('/admin/medicos',[App\Http\Controllers\MedicosController::class, 'create'])->name('medico.novo')->middleware(['auth', 'tipo:admin']);
+Route::post('/admin/medico/salvar',[App\Http\Controllers\MedicosController::class, 'store'])->name('medicos.salvar')->middleware(['auth', 'tipo:admin']);
 
+Route::get('/medico/dashboard',[App\Http\Controllers\MedicosController::class,'index'])->name('dashboard.medico')->middleware(['auth','tipo:medico']);
 
 Route::get('/login',[App\http\Controllers\Auth\LoginController::class,'index'])->name('login');
 Route::get('/registro',[App\http\Controllers\Auth\RegisterController::class,'index'])->name('registro');

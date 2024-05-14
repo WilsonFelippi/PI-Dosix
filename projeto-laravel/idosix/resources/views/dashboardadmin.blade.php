@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-    <h2 class="titulo-cadastro">Olá, {{Auth::user()->tipo}}!</h2>
+    <h2 class="titulo-cadastro">Olá, {{Auth::user()->nome}}!</h2>
     <br><br>
     <div class="container">
         <div class="row justify-content-center">

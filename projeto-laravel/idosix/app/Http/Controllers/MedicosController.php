@@ -1,9 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Models\Medicos;
+use App\Models\User;
+use App\Models\Agendamento;
+use App\Models\Especialidades;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use League\Flysystem\UrlGeneration\PublicUrlGenerator;
 
 class MedicosController extends Controller
 {
@@ -12,7 +16,13 @@ class MedicosController extends Controller
      */
     public function index()
     {
-        //
+            $user = Auth::user()->id;
+            $agendamentos = Agendamento::where('id_medico', $user)->get();
+            $clientes = User::all('nome', 'celular');
+            $medicos = User::all('nome', 'id_especialidade');
+            $especialidades = Especialidades::all();
+            return view('dashboardmedico', compact(['agendamentos', 'clientes', 'user', 'especialidades', 'medicos']));
+    
     }
 
     /**
@@ -20,7 +30,10 @@ class MedicosController extends Controller
      */
     public function create()
     {
-        //
+        $count = User::count();
+        $medicos = User::where('tipo', '=', 'medico')->get();
+        $especialidades = Especialidades::all();
+        return view('novomedico', compact(['especialidades', 'medicos', 'count']));
     }
 
     /**
@@ -28,38 +41,32 @@ class MedicosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $medico = new User;
+        $medico->nome = $request->nome;
+        $medico->cpf = $request->cpf;
+        $medico->crm = $request->crm;
+        $medico->genero = $request->genero;
+        $medico->data_nascimento = $request->data_nascimento;
+        $medico->celular = $request->celular;
+        $medico->logradouro = $request->logradouro;
+        $medico->numero = $request->numero;
+        $medico->complemento = $request->complemento;
+        $medico->bairro = $request->bairro;
+        $medico->cidade = $request->cidade;
+        $medico->estado = $request->estado;
+        $medico->cep = $request->cep;
+        $medico->email = $request->email;
+        $medico->password = Hash::make($request->password);
+        $medico->tipo = $request->tipo;
+        $medico->id_especialidade = $request->id_especialidade;
+
+        $medico->save();
+
+        return redirect('/admin/medicos');
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Medicos $medicos)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Medicos $medicos)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, Medicos $medicos)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Medicos $medicos)
-    {
-        //
-    }
+  
 }

@@ -1,20 +1,7 @@
 @extends('layout.layoutcliente')
 
 @section('content')
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#Cardiologista').hide();
-        $('#Clínico Geral').hide();
-        $('#Urologista').hide();
-        $('#id_especialista').change(function() {
-             if ($('#id_especialidade').val() == 1) {
-                $('#Cardiologista').show(); 
-            }  else if ($('#id_especialidade').val() == 2) {
-                $('#Cliníco Geral').show();
-            }
-        });
-    });
-</script> 
+
 <main>
     
 <div class="container">
@@ -28,21 +15,7 @@
                         @csrf
 
                         
-                        {{-- <div class="row justify-content-center ">
-                            <label for="nome" class="col-lg-2 col-form-label text-md-end input-texto-cadastro">{{ __('Especialidade') }}</label>
-                            
-                            <div class="col-lg-4">
-                                
-                                <select class="form-control input-cadastro " name="id_especialidade" id="id_especialidade" >
-                                    
-                                    @foreach ($especialidades as $especialidade)
-                                        <option value={{$especialidade['id']}}>{{$especialidade['descricao']}}</option>
-                                    @endforeach
-
-                                </select>
-
-                            </div>
-                        </div> --}}
+                    
 
                         
                         <div class="row"> <br> </div>

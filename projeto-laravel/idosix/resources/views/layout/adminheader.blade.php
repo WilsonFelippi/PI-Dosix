@@ -8,10 +8,10 @@
         <div><span class="btn_menu "><a href="{{ route('dashboard.admin') }}">Agendamentos</a></span></div>
       </div>
       <div class="col-lg-2">
-        <div><span class="btn_menu "><a href="{{ route('dashboard.admin') }}">Nova Especialidade</a></span></div>
+        <div><span class="btn_menu "><a href="{{ route('especialidade.nova') }}">Nova Especialidade</a></span></div>
       </div>
       <div class="col-lg-2">
-        <div><span class="btn_menu "><a href="{{ route('dashboard.admin') }}">Novo Médico</a></span></div>
+        <div><span class="btn_menu "><a href="{{ route('medico.novo') }}">Novo Médico</a></span></div>
       </div>
       <div class="col-lg-2">
         <div><span class="btn_menu "> <a href="{{ route('logout') }}"
