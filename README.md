@@ -61,9 +61,10 @@ http://localhost:8000
   <sub><a href="https://github.com/ViniciuCristian21">VINICIU CRISTIAN DA SILVA</a></sub><br>
   <sub><a href="https://github.com/WilsonFelippi">WILSON RODRIGO FELIPPI</a></sub><br>
   <sub><a href="https://github.com/WillZuq">WILLIAN PIRES SABADINI ZUQUI</a></sub><br>
-  <sub><a href="https://github.com/Willian-1921">WILLIAN ANDRÉ DUTRA DE SOUZA
-</a></sub><br>
-<sub><a href="#">VINICIUS DE OLIVEIRA</a></sub><br>
-<sub><a href="#">YAGO RANGEL</a></sub><br>
+  <sub><a href="https://github.com/Willian-1921">WILLIAN ANDRÉ DUTRA DE SOUZA</a></sub><br>
+  <sub><a href="#">VINICIUS DE OLIVEIRA</a></sub><br>
+  <sub><a href="#">YAGO RANGEL</a></sub><br>
+  <sub><a href="#">IAGO OLIVEIRA LOPES DA SILVA</a></sub><br>
+  <sub><a href="#">GUILHERME DE SOUSA VIRDIANO</a></sub><br>
 
 </div>
