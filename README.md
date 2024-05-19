@@ -52,7 +52,13 @@ $ npm run dev
 
 http://localhost:8000
 ```
-
+## Login e senhas já criados no banco de dados
+<div>
+  <p>admin@exemplo.com | 12345678</p>
+  <p>cliente1@exemplo.com | 12345678</p>
+  <p>medico1@exemplo.com | 12345678</p>
+  <p>medico2@exemplo.com | 12345678</p>
+</div>
 <hr>
 <div>
     <h3>Desenvolvedores.</h3>
